@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-scinim-main.flake = false;
+  inputs.src-scinim-main.ref   = "refs/heads/main";
   inputs.src-scinim-main.owner = "SciNim";
-  inputs.src-scinim-main.ref   = "main";
   inputs.src-scinim-main.repo  = "scinim";
   inputs.src-scinim-main.type  = "github";
   
